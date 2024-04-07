@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eventos JavaScript</title>
+</head>
+<body>
+
+<div id="myElement" style="width: 200px; height: 100px; background-color: lightblue;">
+  Pasa el mouse sobre este elemento y luego sácalo
+</div>
+
+<script>
+
+document.getElementById("myElement").addEventListener("mouseout", function() {
+    console.log("El mouse salió del elemento.");
+});
+</script>
+
+</body>
+</html>

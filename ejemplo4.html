@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eventos JavaScript</title>
+</head>
+<body>
+
+<p>Pulsa una tecla en el teclado</p>
+
+<script>
+
+document.addEventListener("keydown", function(event) {
+    console.log("Presionaste la tecla: " + event.key);
+});
+</script>
+
+</body>
+</html>

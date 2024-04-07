@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eventos JavaScript</title>
+</head>
+<body>
+
+<div id="myElement" style="width: 200px; height: 100px; background-color: lightblue;">
+  Pasa el mouse sobre este elemento
+</div>
+
+<script>
+
+document.getElementById("myElement").addEventListener("mouseover", function() {
+    console.log("El mouse está sobre el elemento.");
+});
+</script>
+
+</body>
+</html>

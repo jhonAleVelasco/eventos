@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eventos JavaScript</title>
+</head>
+<body>
+
+<input type="text" id="myInput" placeholder="Escribe algo aquí">
+
+<script>
+
+document.getElementById("myInput").addEventListener("change", function() {
+    console.log("El valor del input ha cambiado a: " + this.value);
+});
+</script>
+
+</body>
+</html>
